@@ -1,3 +1,10 @@
+The objective is to develop a web application for a simple Pokemon catalog using Next.js, React, GraphQL, and Apollo GraphQL.
+
+The data is retrieved from the GraphQL API: https://graphql-pokemon2.vercel.app/. Apollo Client library has been used to fetch data from the API. The application is hosted on Vercel . Homepage: Lists all available Pokemon with pagination (20 Pokemon per page). Displays each Pokemon's image, number, name, and types.
+
+Pokemon detail page: Display name, image, height, weight, classification, type, weakness, and resistance of the Pokemon.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -36,3 +43,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
