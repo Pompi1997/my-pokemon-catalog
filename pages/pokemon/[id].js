@@ -46,26 +46,27 @@ function PokemonDetail() {
       margin: "auto", 
       backgroundColor: "#fff", 
       borderRadius: "8px",
-      boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
+      boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.4)",
       overflow: "hidden",
       fontFamily: "Arial, sans-serif"
     }}>
       <div style={{
         position: "relative",
-        height: "200px",
+        height: "300px",
         backgroundColor: "#f7fafc"
       }}>
-        <img 
-          src={pokemon.image} 
-          alt={pokemon.name} 
+         <img
+          src={pokemon.image}
+          alt={pokemon.name}
           style={{
-            position: "absolute",
+            position: 'absolute',
             top: 10,
-            left: 160,
-            width: "50%",
-            height: "100%",
-            // objectFit: "cover"
-          }} 
+            left: '50%',
+            transform: 'translateX(-50%)',
+            width: '70%',
+            height: '100%',
+            // objectFit: 'cover',
+          }}
         />
       </div>
       <div style={{
@@ -108,7 +109,6 @@ function PokemonDetail() {
           backgroundColor: "#cbd5e0",
           borderRadius: "20px",
           color: "#4a5568",
-          padding: "4px 12px",
 
 
           

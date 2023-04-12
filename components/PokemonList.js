@@ -25,8 +25,9 @@ function PokemonList({ first }) {
   return (
     <div className={styles['pokemon-list']}>
       {data.pokemons.map((pokemon) => (
+        <div className={styles['pokemon-card']}>
         <Link href={`/pokemon/${pokemon.id}`} key={pokemon.id}>
-          <div className={styles['pokemon-card']}>
+          
             <img
               src={pokemon.image}
               alt={pokemon.name}
@@ -37,8 +38,9 @@ function PokemonList({ first }) {
             <p className={styles['pokemon-types']}>
               Type: {pokemon.types.join(', ')}
             </p>
-          </div>
+          
         </Link>
+        </div>
       ))}
     </div>
   );
